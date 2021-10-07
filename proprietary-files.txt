@@ -1,0 +1,239 @@
+# Samsung Package Version J510FNXXU2BQJ8_J510FNOXY2BQJ8 (unless otherwise specified and/or tagged)
+
+# ADSP
+bin/adsprpcd
+vendor/lib/libadsprpc.so
+
+# Audio
+vendor/lib/libacdb-fts.so
+vendor/lib/libacdbloader.so
+vendor/lib/libacdbmapper.so
+vendor/lib/libacdbrtac.so
+vendor/lib/libadiertac.so
+vendor/lib/libaudcal.so
+-vendor/lib/libaudioalsa.so
+vendor/lib/liblistensoundmodel2.so
+-vendor/lib/libqct_resampler.so
+vendor/lib/soundfx/libqcbassboost.so
+vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcvirt.so
+
+# AptX - (Moto griffin - NCLS25.86-11-4-6-5)
+vendor/lib/libaptX_encoder.so|b03772672144d4b750a5672c2922aded93bb0512
+vendor/lib/libaptXHD_encoder.so|b65cd3b72ae3e6a57901fd5b5383bfa1a88c5737
+
+# Bluetooth
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|dfe077d09d2c89e80429d68c70e6bb80286afb1e
+vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so|c31edee39b8c25fe0fba7efd36267ffded5785c6
+vendor/lib/libbtnv.so|9b6845a4206e1423b9d476fd6e290930ec6d0d4a
+
+# Camera
+bin/mm-qcamera-daemon
+cameradata/datapattern_420sp.yuv
+cameradata/datapattern_front_420sp.yuv
+etc/firmware/cpp_firmware_v1_1_1.fw
+etc/firmware/cpp_firmware_v1_1_6.fw
+etc/firmware/cpp_firmware_v1_2_0.fw
+etc/firmware/cpp_firmware_v1_4_0.fw
+lib/libexifa.so
+lib/libjpega.so
+lib/libmmcamera_interface.so
+lib/libmmjpeg_interface.so
+lib/libqomx_core.so
+vendor/lib/libjpegdhw.so
+vendor/lib/libjpegehw.so
+
+# Camera - wf-crackling-7.1-TOS093F-a29b96e3d6
+vendor/lib/libmmcamera_faceproc.so|ac49bcc1aa20ff9f2c118f6c233b658f93543202
+
+# DRM
+bin/qcom-system-daemon
+lib/libdrmdecrypt.so
+lib/libhdcp2.so
+vendor/lib/libmmQSM.so
+vendor/lib/libmmrtpdecoder.so
+vendor/lib/librpmb.so
+vendor/lib/libssd.so
+vendor/lib/liboemcrypto.so
+vendor/lib/drm/libdrmprplugin.so
+vendor/lib/libdrmfs.so
+vendor/lib/libdrmtime.so
+vendor/lib/libprdrmdecrypt.so
+vendor/lib/libtzdrmgenprov.so
+vendor/lib/libtzplayready.so
+vendor/lib/mediadrm/libprmediadrmdecrypt.so
+vendor/lib/mediadrm/libprmediadrmplugin.so
+
+# FM
+bin/fmconfig
+bin/fm_qsoc_patches
+-lib/vendor.qti.hardware.fm@1.0.so
+vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
+vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so
+
+# GPS - From Crackling
+bin/loc_launcher
+lib/libloc_api_v02.so|74df1667c42701ef550ba73db6c5ae63542913ac
+lib/libloc_ds_api.so|2124d2df231d1e3ccb7f22c6227f6112f4013485
+vendor/lib/hw/flp.default.so|c281157957565dc35f7e1731b2c71a71a532a821
+vendor/lib/libflp.so|49bb0a76e2fbfa4be0d00b2f75f18d0a13aee4e4
+vendor/lib/libgeofence.so|bd34516de3c933d81267822716235c358ab6695d
+vendor/lib/libizat_core.so|8a948e4f2aa38463050c6399f04ecb38564689d6
+vendor/lib/liblbs_core.so|10caf0d54768114cd471c33a1e2dc6385d3c7707
+
+# Graphics - wf-crackling-7.1-TOS111B
+vendor/lib/egl/eglsubAndroid.so|a80ffa441af58222dc43ba2a15fb2d4f2a9fae59
+vendor/lib/egl/eglSubDriverAndroid.so|6f5ae2f50bae4917173bc1f23eedbb932e068994
+vendor/lib/egl/libEGL_adreno.so|c30e4b0741e48c424aea23bf74dbf0e8b3a99369
+vendor/lib/egl/libESXEGL_adreno.so|7fb1078f65d5ccec000e90466e347308d7faa98b
+vendor/lib/egl/libESXGLESv1_CM_adreno.so|817a1ecda830c46c170b2733b2fbc26f97b04180
+vendor/lib/egl/libESXGLESv2_adreno.so|377452ed2d1b0655d7eca4a03fb763d7043aba30
+vendor/lib/egl/libGLESv1_CM_adreno.so|629e554170807f47a6790d559952ede06df0c9a6
+vendor/lib/egl/libGLESv2_adreno.so|70c7d8a44042fd0a9280c8ed2e9e738c3f14b0c3
+vendor/lib/egl/libq3dtools_adreno.so|4c3a394cd397e05b0794aa1bb16531da4c03855d
+vendor/lib/egl/libQTapGLES.so|900229ff94bbc44722d0df2a685b8ad2fbf1c51e
+vendor/lib/egl/libRBEGL_adreno.so|ce9a65968612e852d01f0bd6e1743dce015db7d1
+vendor/lib/egl/libRBGLESv1_CM_adreno.so|8c8491f0f4decb8658af866e32fc083322095f20
+vendor/lib/egl/libRBGLESv2_adreno.so|4bd77c04fc435de9d198da0233513dda6e557dab
+vendor/lib/libadreno_utils.so|522db7791ef53fc0747fc66274e3d9d01ac7b406
+vendor/lib/libbccQTI.so
+vendor/lib/libC2D2.so|cea171dbb9aa813fb1d2255a8816cd67555bfded
+vendor/lib/libc2d30-a3xx.so|39569008421b7841f567c0a4525638d81d32ffe7
+vendor/lib/libc2d30-a4xx.so|f9afec859c654cb646a27af8f9e16e8a8c412055
+vendor/lib/libCB.so|ef749cfbfe44dabe1c42fef3980f4407bad5c531
+vendor/lib/libgsl.so|158be0351abcf84b939a1c8a9838eed526ccc9e2
+vendor/lib/libllvm-glnext.so|2e5785200004df231403074c0f6d7d87bf395745
+vendor/lib/libllvm-qcom.so|77f2a0adf9c36291a02055be3fcd1cf5fa82a113
+vendor/lib/libOpenCL.so|e1f8c3fdb58fa9fbb1465d909e9ab7ba31176bd6
+vendor/lib/librs_adreno.so|7f0fe9802d2bd832b98848d7436ae1aafbe52221
+vendor/lib/librs_adreno_sha1.so|3289659eb1307377b20fb33ca4b8d42e15532612
+vendor/lib/libRSDriver_adreno.so|2c9d23e4555f76c1aa28eb5aea2fa919081a8654
+vendor/lib/libsc-a2xx.so
+vendor/lib/libsc-a3xx.so|a03fc9f0c929cb4adf013f8a463cfbef68d48090
+vendor/lib/libscale.so|972cbd87794b4ce0a5c23db946acbafd4cd6d073
+
+# Graphics Firmware
+etc/firmware/a300_pfp.fw
+etc/firmware/a300_pm4.fw
+etc/firmware/a420_pfp.fw
+etc/firmware/a420_pm4.fw
+etc/firmware/ice40.bin
+etc/firmware/leia_pfp_470.fw
+etc/firmware/leia_pm4_470.fw
+
+# Media
+etc/somxreg.conf
+lib/libOmxVdecHevc.so
+lib/libplayready_v2.5.so
+lib/libsomx263dsw.so
+lib/libsomx264dsw.so
+lib/libsomxaacd.so
+lib/libsomxaace.so
+lib/libsomxadpcmd.so
+lib/libsomxamrd.so
+lib/libsomxcmn.so
+lib/libsomxcore.so
+lib/libsomxflacd.so
+lib/libsomxhevcdsw.so
+lib/libsomxmp3d.so
+lib/libsomxmp4vdsw.so
+lib/libsomxnaace.so
+lib/libsomxvp8d.so
+vendor/lib/libhwdaphal.so
+vendor/lib/libExtendedExtractor.so
+vendor/lib/libFlacSwDec.so
+-vendor/lib/libHevcSwDecoder.so
+vendor/lib/libI420colorconvert.so
+vendor/lib/libmm-abl-oem.so
+vendor/lib/libmm-color-convertor.so
+vendor/lib/libmm-disp-apis.so
+vendor/lib/libmm-hdcpmgr.so
+vendor/lib/libmmparser.so
+vendor/lib/libmm-qdcm.so
+vendor/lib/libOmxAacDec.so
+vendor/lib/libOmxEvrcDec.so
+vendor/lib/libOmxQcelp13Dec.so
+vendor/lib/libqomx_jpegdec.so
+vendor/lib/libsd_sdk_display.so
+vendor/media/LMspeed_508.emd
+vendor/media/PFFprec_600.emd
+
+# Miscellaneous
+bin/ssr_diag
+bin/ssr_setup
+bin/wdsdaemon
+bin/subsystem_ramdump
+lib/libedmnativehelper.so
+vendor/lib/libfastcvopt.so
+vendor/lib/libscve_mv.so
+vendor/lib/libscve.so
+
+# Perf
+vendor/bin/perfd:bin/perfd
+vendor/lib/libqti-at.so
+vendor/lib/libqti-perfd-client.so
+
+# Post-processing
+vendor/lib/libmm-als.so
+vendor/lib/libmm-abl.so
+vendor/lib/libdisp-aba.so
+
+# Radio
+bin/diag_mdlog
+bin/diag_uart_log
+bin/netmgrd
+bin/ftm_ptt
+bin/ptt_socket_app
+bin/port-bridge
+bin/qmuxd
+bin/radish
+bin/rmt_storage
+bin/wlandutservice
+etc/plmn_delta.bin
+etc/plmn_se13.bin
+etc/srm.bin
+lib/libatparser.so
+lib/libcordon.so
+lib/libfactoryutil.so
+lib/libomission_avoidance.so
+vendor/lib/libconfigdb.so
+vendor/lib/libmdmdetect.so
+vendor/lib/libnetmgr.so
+vendor/lib/libperipheral_client.so
+vendor/lib/libsubsystem_control.so
+vendor/lib/libSubSystemShutdown.so
+vendor/lib/libxml.so
+
+# RIL
+lib/libaudio-ril.so
+lib/libsecril-client.so
+vendor/lib/libril-qcril-hook-oem.so
+
+# Samsung libs
+lib/libsecnativefeature.so
+lib/libseckeyprov.so
+
+# Security
+bin/irsc_util
+lib/libgdmcprov.so
+
+# STLport
+vendor/lib/libstlport.so|e61ef21decc21472e06eacc841e7d61bf68ca9f3
+
+# Thermal
+vendor/bin/thermal-engine
+vendor/lib/libthermalclient.so
+vendor/lib/libthermalioctl.so
+
+# Time services
+-app/TimeService/TimeService.apk
+bin/time_daemon
+vendor/lib/libTimeService.so
+-vendor/lib/libtime_genoff.so
+
+# Widevine - bullhead
+vendor/lib/drm/libdrmwvmplugin.so|3bee766222895f524421eb996ca6a08bcf95f19f
+vendor/lib/libwvdrm_L1.so|3eaf8ed1cb337608a1ccdb80d2c95804e7aea323
+vendor/lib/libwvm.so|59c4c078f4b897ddac8f665309b7a3f25522f207
+vendor/lib/libWVStreamControlAPI_L1.so|6b28492ac55b9a3d86993343cf2c8b55240b3420
+vendor/lib/mediadrm/libwvdrmengine.so|c172a907a8c268878ff30c8af44f561f14986745
